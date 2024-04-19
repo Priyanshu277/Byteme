@@ -139,7 +139,7 @@ if st.button("Generate Itinerary"):
             st.write(f"Description: {activity['description']}")
             st.write(f"Location: {activity['location']}")
             st.write(f"Time: {activity['start_time']} - {activity['end_time']}")
-            st.write(f"Link: {activity['link']}")
+            
             st.write("\n")
     
     # Set the start date to tomorrow
